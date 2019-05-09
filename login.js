@@ -88,3 +88,9 @@ function checkMenberType(id){
         CheckedMenterType = true;
     }
 }
+function responsecheck(pw, id){
+    if(pw==NULL){
+       alert("패스워드를 입력해주십시오");}
+    if(id==NULL){
+        alert("ID를 입력해주십시오");}
+}
