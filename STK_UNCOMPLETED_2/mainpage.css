@@ -1,0 +1,40 @@
+.buttonfor {
+    width:150px;
+    height:50px;
+    font-family:견명조;
+    font-size:20px;
+    background-color: white;
+    border-radius:10px;
+}
+.defofstk {
+    font-family:궁서체;
+    font-size:100px;
+    text-align:center;
+}
+.stkimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.joinus {
+    font-family: arial;
+    font-size: 80px;
+    text-align: center;
+    border-top: 10px solid blue;
+    border-right:10px solid  red;
+    border-bottom:10px solid  green;
+    border-left: 10px solid yellow;
+}
+
+   
+    
+.weare {
+    font-family: 견명조;
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-right: 10px solid skyblue;
+    border-left: 10px solid skyblue;
+}
