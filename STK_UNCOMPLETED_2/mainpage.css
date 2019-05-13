@@ -19,22 +19,14 @@
 .joinus {
     font-family: arial;
     font-size: 80px;
-    text-align: center;
-    border-top: 10px solid blue;
-    border-right:10px solid  red;
-    border-bottom:10px solid  green;
-    border-left: 10px solid yellow;
+    border: 10px solid purple;
+    width: 600px;
+    text-align: "center";
 }
-
-   
-    
 .weare {
     font-family: 견명조;
     font-size: 40px;
     color:black;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-    border-right: 10px solid skyblue;
-    border-left: 10px solid skyblue;
 }
+
