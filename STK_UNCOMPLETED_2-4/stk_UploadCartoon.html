@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STK-업로드</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <form method="POST" action="stk_UplaodCartoon.php" enctype="multipart/form-data">
+            <p>아이디:<input type="text" name="user_id"></p>
+            <p>비밀번호:<input type="password" name="user_pw"></p>
+            <br>
+            <p>제목:<input type="text" name="cartoon_title"></p>
+            <br>
+            <input type="file" name="Image[]" multiple="multiple"></input></p>
+            <br>
+            <input type="submit" value="업로드"></input>
+    </form>
+    <br>
+    <button onclick="self.close();">업로드 취소</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>STK-가입</title>
+<script src="stk_join.js"></script>
+</head>
+<body>
+    <div style="text-align: center;">
+    <form method="post" action="stk_join.php">
+        <table>
+            <tr>
+                <td>이름</td>
+                <td title="실명"><input type="text" size="15" name="user_name"></td>
+            </tr>
+            <tr>
+                <td>사용자 타입</td>
+                <td>
+                    <select name="user_type" id="type" onchange="changeLangSelect();">
+                        <option value="Reader" selected="selected">독자</option>
+                        <option value="Cartooner">작가</option>
+                    </select>
+                    <p style="color: red;" id="type_info">사용자 타입 "독자"는 업로드권한이 없으며 다른 것은 모두 동일 합니다.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>아이디</td>
+                <td title="사이트 내에서 쓸 아이디"><input type="text" size="30" name="user_id"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td title="아이디의 비밀번호"><input type="password" size="20" name="user_pw"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 확인</td>
+                <td><input type="password" size="20" name="user_pw2"></td>
+            </tr>
+        </table>
+        <button style="text-align: center;">가입</button>
+    </form>
+        <button onclick="self.close();" >가입취소</button>
+    </div>
+    
+</body>
+</html>

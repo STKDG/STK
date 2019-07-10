@@ -1,0 +1,4 @@
+$sql = "CREATE TABLE STK_CARTOON_TITLE(";
+$sql = $sql."id int unsigned primary key auto_increment,";
+$sql = $sql."cartoon_title varchar(20) not null,";
+$sql = $sql."user_id varchar(30) not null)";

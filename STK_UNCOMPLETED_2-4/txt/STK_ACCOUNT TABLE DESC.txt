@@ -1,0 +1,8 @@
+$sql = "CREATE TABLE STK_ACCOUNT(";
+$sql = $sql."id int unsigned primary key auto-increment,";
+$sql = $sql."user_id varchar(30) not null,";
+$sql = $sql."user_pw varchar(20) not null,";
+$sql = $sql."user_type varchar(15) not null,";
+$sql = $sql."user_name varchar(15) not null,";
+$sql = $sql."user_warning int not null)";
+$mysqli->query($sql);
