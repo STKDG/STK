@@ -1,0 +1,24 @@
+
+.link:link {
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+.link:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.link:hover {
+    color: darkturquoise;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.link:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }

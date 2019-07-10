@@ -1,0 +1,14 @@
+$sql = "CREATE TABLE {$cartoon_title}(";
+$sql = $sql."id int unsigned primary key auto_increment,";
+$sql = $sql."cartoon_image_dir varchar(100) not null)";
+
+<?php
+    $host = 'localhost';
+    $user = 'root';
+    $pw = 'dpcmysql';
+    $dbName = 'STK_ACCOUNT_DB';
+    $mysqli = new mysqli($host, $user, $pw, $dbName);
+
+    $sql = "delete from stk_signed_in;";
+    $mysqli->query($sql);
+?>
