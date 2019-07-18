@@ -1,0 +1,60 @@
+.buttonfor {
+    width:100px;
+    height:30px;
+    font-family:견명조;
+    font-size:10px;
+    background-color: white;
+    border-radius:10px;
+    
+}
+.login{
+    font-family:견명조;
+    font-size:10x;
+    background-color: white;
+    border-radius:10px;
+}
+.center{
+    text-align: center;
+}
+
+#stklogo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px; 
+    height: 100px;
+}
+#neukimg {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+#developers{
+  display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 500px;
+}
+
+a{
+    font-size: 15px;
+}
+a:link{
+    color: blue; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:hover{
+    color: blue; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }

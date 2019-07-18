@@ -1,0 +1,1 @@
+START cd C:/Bitnami/wampstack-7.1.29-0/mysql/bin
